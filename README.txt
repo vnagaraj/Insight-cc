@@ -20,3 +20,16 @@ Summary of Packages added:
 7. src/stream - comprises of Reader/Writer class to perform operations of reading from file/writing to file.
 8. src/unittest - comprises of JUNIT unittests for each of the classes added.
 9. doc - javaDoc for all the classes
+
+Running tests:
+Sample output
+prome-1n-dhcp2-149:insight_testsuite VGN$ pwd
+/Users/VGN/Documents/Study/dummy/Insight-cc/insight_testsuite
+
+prome-1n-dhcp2-149:insight_testsuite VGN$ ./run_tests.sh
+[PASS]: test-2-tweets-all-distinct
+[PASS]: test-3-tweets-all-distinct
+[PASS]: test-4-0-hashtag
+[PASS]: test-4-1-hashtag
+[PASS]: test-data-gen
+[PASS]: test-data-gen2
