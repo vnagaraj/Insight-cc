@@ -6,8 +6,9 @@
 #python ./src/average_degree.py ./tweet_input/tweets.txt ./tweet_output/output.txt
 
 
-
 cd src
+export CLASSPATH=$PWD
+#javac stream/Reader.java
 javac launch/Executor.java
 java -cp $CLASSPATH launch.Executor ../tweet_input/tweets.txt ../tweet_output/output.txt
 
